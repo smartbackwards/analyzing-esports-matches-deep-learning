@@ -1,0 +1,9 @@
+# Raw / processed match data (tens of GB) – not versioned
+data/
+*.zip
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
