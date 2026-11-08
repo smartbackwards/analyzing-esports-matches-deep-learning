@@ -21,19 +21,12 @@ including ablations on training-set size and on hidden-information/edge features
 
 Maps: ancient, anubis, dust2, inferno, mirage, nuke, overpass, and `train` (pooled training set).
 
-## Data (not included)
+## Data (not published)
 
-The processed match files (`data/<map>/season*/…json`, ≈ 49 GB) are too large for GitHub and are not part of this
-repository. `dataset.py` expects per-match JSON files with keys `df`, `X`, `Y`, `GNN`, as produced by the
-preprocessing step (`preprocess.py`, which is not included here). Expected layout:
-
-```
-data/<map>/{season1,season2,current}/<event>_<team>-vs-<team>-<map>.json
-data/train/{season1,season2}/…-train.json
-```
-
-> TODO (author): add a link to where the data can be obtained (e.g. Zenodo / institutional storage) and
-> state the source and licence of the underlying demo data.
+The processed match data used for training and evaluation is not part of this repository and is not publicly
+distributed. `dataset.py` documents the expected per-match JSON structure (keys `df`, `X`, `Y`, `GNN`), so the
+code can be read and adapted, but the experiments cannot be re-run without equivalent data. The executed notebooks
+in `results/` contain all outputs, so the reported results can be inspected without re-running anything.
 
 ## Running
 
@@ -43,8 +36,7 @@ jupyter lab
 ```
 
 The notebooks were run on Google Colab and set `BASE = Path('/content/drive/MyDrive/magisterka')`.
-Change `BASE` to your local checkout (and point `data/` at the downloaded data) before running.
-The notebooks in `results/` already contain their outputs, so the results can be inspected without re-running anything.
+Change `BASE` to your local checkout before running (requires your own data in the layout `dataset.py` expects).
 
 ## Citation / licence
 
