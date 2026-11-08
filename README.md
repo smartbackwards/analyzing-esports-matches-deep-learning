@@ -11,8 +11,8 @@ including ablations on training-set size and on hidden-information/edge features
 | Path | Contents |
 |---|---|
 | `dataset.py` | PyTorch / PyG `Dataset` classes and data-loading helpers shared by all notebooks |
-| `train_map.ipynb`, `train_map_v2.ipynb`, `train_dust2.ipynb`, `training_notebook.ipynb` | Training notebooks (per-map training) |
-| `ablation_training_size_dust2.ipynb` / `.csv` / `.png` | Training-set-size ablation on Dust2 |
+| `training_notebook.ipynb` | Training notebook (template used for the per-map runs in `results/`) |
+| `ablation/` | Training-set-size ablation on Dust2 (notebook, CSV, plot) |
 | `visualisation_notebook.ipynb` | Figures |
 | `comparison/` | Cross-model evaluation notebook (hidden-32 phase/ECE) |
 | `results/trained64/`, `results/trained32/` | Executed notebooks (with outputs) per map for the 64- and 32-dim models |
@@ -38,6 +38,11 @@ jupyter lab
 The notebooks were run on Google Colab and set `BASE = Path('/content/drive/MyDrive/magisterka')`.
 Change `BASE` to your local checkout before running (requires your own data in the layout `dataset.py` expects).
 
-## Citation / licence
+## Licence
 
-> TODO (author): add the thesis citation (author, title, university, year) and choose a licence.
+- Code, notebooks and trained weights: [MIT](LICENSE)
+- Thesis text and figures (`MAGISTERKA.pdf`): [CC BY 4.0](LICENSE-THESIS.md)
+
+## Citation
+
+> TODO (author): add the thesis citation (author, title, university, year).
