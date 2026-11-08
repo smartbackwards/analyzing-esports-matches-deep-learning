@@ -2,7 +2,7 @@
 
 Copyright (c) 2026 Bartosz Tramś
 
-The thesis document (`MAGISTERKA.pdf`) and the figures it contains are licensed under the
+The thesis document (`THESIS.pdf`) and the figures it contains are licensed under the
 **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**.
 
 You are free to share and adapt the material for any purpose, including commercially, as long as you give

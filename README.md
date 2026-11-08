@@ -1,6 +1,6 @@
 # Analyzing esports matches using deep learning
 
-Code and experiment artefacts accompanying my master's thesis (full text: [`MAGISTERKA.pdf`](MAGISTERKA.pdf)).
+Code and experiment artefacts accompanying my master's thesis (full text: [`THESIS.pdf`](THESIS.pdf)).
 
 The experiments compare several model families (DeepSets, Set Transformer, GCN, GAT, temporal GNN, LightGBM)
 on per-map Counter-Strike 2 round data, evaluating predictive log-likelihood and calibration (ECE),
@@ -41,7 +41,7 @@ Change `BASE` to your local checkout before running (requires your own data in t
 ## Licence
 
 - Code, notebooks and trained weights: [MIT](LICENSE)
-- Thesis text and figures (`MAGISTERKA.pdf`): [CC BY 4.0](LICENSE-THESIS.md)
+- Thesis text and figures (`THESIS.pdf`): [CC BY 4.0](LICENSE-THESIS.md)
 
 ## Citation
 
