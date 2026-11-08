@@ -1,4 +1,4 @@
-# Master's thesis – code, notebooks and results
+# Analyzing esports matches using deep learning
 
 Code and experiment artefacts accompanying my master's thesis (full text: [`MAGISTERKA.pdf`](MAGISTERKA.pdf)).
 
@@ -45,4 +45,13 @@ Change `BASE` to your local checkout before running (requires your own data in t
 
 ## Citation
 
-> TODO (author): add the thesis citation (author, title, university, year).
+Tramś, B. (2026). *Analyzing esports matches using deep learning*. Master's thesis, Wrocław University of Science and Technology.
+
+```bibtex
+@mastersthesis{tramsh2026esports,
+  author = {Tramś, Bartosz},
+  title  = {Analyzing esports matches using deep learning},
+  school = {Wrocław University of Science and Technology},
+  year   = {2026}
+}
+```

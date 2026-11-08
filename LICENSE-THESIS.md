@@ -1,6 +1,6 @@
 # Licence for the thesis text
 
-Copyright (c) 2026 Bartek Trams
+Copyright (c) 2026 Bartosz Tramś
 
 The thesis document (`MAGISTERKA.pdf`) and the figures it contains are licensed under the
 **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**.
